@@ -1,0 +1,240 @@
+body {
+  background: #077054;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #315f52;
+  margin: 0;
+  padding: 0;
+}
+#body {
+	background: #ffffff;
+	margin: 1px auto 0;
+	max-width: 880px;
+	min-height: 827px;
+	overflow: hidden;
+	padding: 45px 40px 45px;
+}
+#body > h2 {
+	color: #21a51e;
+	font-family: 'Times New Roman';
+	font-size: 35px;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 0 45px;
+}
+  #header {
+    margin: 0 auto;
+    max-width: 960px;
+  }
+  #header h1 {
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 50px;
+    margin: 0;
+    padding: 30px 0;
+    text-align: center;
+  }
+  #header h1 a {
+    color: #99fa99;
+    text-decoration: none;
+  }
+  #header h1 a span {
+    color: #b6d8cf;
+    display: block;
+    font-family: sans-serif;
+    font-size: 27px;
+    text-transform: uppercase;
+  }
+  #header ul#navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  #header ul#navigation li {
+    display: inline;
+    line-height: 30px;
+    position: relative;
+  }
+  #header ul#navigation li a {
+    color: #b6d8cf;
+    font-size: 18px;
+    padding: 0 45px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  #header ul#navigation li a:hover,
+  #header ul#navigation li.current ul li a:hover {
+    color: #d3a3ff;
+  }
+  #header ul#navigation li.current a {
+    color: #99fa99;
+  }
+  #header ul#navigation li ul {
+    display: none;
+    left: 0;
+    list-style: none outside none;
+    margin: 0;
+    padding: 12px 0 0;
+    position: absolute;
+    top: 12px;
+  }
+  #header ul#navigation li:hover ul {
+    display: block;
+  }
+  #header ul#navigation li ul li {
+    background: #077054;
+    display: block;
+    height: 45px;
+    line-height: 45px;
+  }
+  #header ul#navigation li ul li a {
+    padding: 0 20px;
+  }
+  #header ul#navigation li.current ul li a {
+    color: #b6d8cf;
+  }
+.invalid {
+  border: 1px solid red;
+}
+
+form {
+  padding: 20px;
+}
+.form-control {
+  font-size: 20px;
+  margin: 25px auto 0;
+	width: 460px;
+}
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 6px;
+}
+label {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+input {
+  background: #d1d3d4;
+	border: 1px solid #b6d8cf;
+	color: #315f52;
+	display: block;
+	font-family: sans-serif;
+	font-size: 14px;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 5px;
+	width: 450px;
+}
+.hide {
+  opacity: 0;
+}
+textarea {
+  background: #d1d3d4;
+	border: 1px solid #b6d8cf;
+	color: #315f52;
+	display: block;
+	font-family: 'latoregular';
+	font-size: 14px;
+	height: 250px;
+	line-height: 30px;
+	overflow: auto;
+	padding: 0 5px;
+	resize: none;
+	width: 448px;
+}
+button {
+  background: #077054;
+	border: none;
+	border-radius: 5px;
+	color: #99fa99;
+	cursor: pointer;
+	font-family: sans-serif;
+	font-size: 14px;
+	float: right;
+	height: 30px;
+	margin: 8px 0 0;
+	width: 50px;
+}
+button:hover {
+  background: #d3a3ff;
+	color: #000000;
+}
+#footer {
+  margin: 0 auto;
+  max-width: 960px;
+  overflow: hidden;
+  padding: 30px 0 60px;
+}
+#footer div {
+  float: left;
+  width: 500px;
+}
+#footer div span {
+  color: #99fa99;
+  display: block;
+  font-size: 26px;
+  line-height: 24px;
+}
+#footer div p {
+  color: #b6d8cf;
+  font-size: 12px;
+  line-height: 30px;
+}
+#footer div#connect {
+  float: right;
+  overflow: hidden;
+  width: auto;
+}
+#footer div#connect a {
+  background: url(images/icons.png) no-repeat;
+  display: block;
+  float: left;
+  text-indent: -99999px;
+}
+#footer div#connect a#facebook {
+  background-position: 0 0;
+  height: 30px;
+  width: 16px;
+}
+#footer div#connect a#twitter {
+  background-position: 0 -30px;
+  height: 30px;
+  margin: 0 0 0 28px;
+  width: 37px;
+}
+#footer div#connect a#googleplus {
+  background-position: 0 -60px;
+  height: 32px;
+  margin: 0 0 0 19px;
+  width: 32px;
+}
+#footer div#connect a#googleplus {
+  background-position: 0 -60px;
+  height: 32px;
+  margin: 0 0 0 19px;
+  width: 32px;
+}
+#footer div#connect a#pinterest {
+  background-position: 0 -95px;
+  height: 30px;
+  margin: 0 0 0 23px;
+  width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
